@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    
+
     //if statement 
 
     // if (3 > 10) {
@@ -100,7 +100,7 @@
     // ______________________________
 
     //function with return value
-    
+
     // function addNumbers($number1, $number2){
     //     $sum = $number1 + $number2;
     //     return $sum;
@@ -132,8 +132,45 @@
 
     //constants
 
+    // $number = 10;
 
-    
+    // echo $number . "<br>";
+
+    // define("name", 1000);
+    // echo name;
+
+    // const nam1 = "hello";
+    // echo nam1;
+
+    // define("animal", array("dog", "cat", "mouse"));
+    // echo animal[1];
+
+    // _________________________________________________
+
+    //Math function
+
+    echo pow(2, 7);
+
+    echo "<br>";
+
+    echo rand(1, 3);
+
+    echo "<br>";
+
+    echo sqrt(100);
+
+    echo "<br>";
+
+    echo ceil(4.2);
+
+    echo "<br>";
+
+    echo floor(4.7);
+
+    echo "<br>";
+
+    echo round(4.5)
+
     ?>
 </body>
 
