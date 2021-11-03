@@ -148,29 +148,49 @@
     // _________________________________________________
 
     //Math function
+    // https://www.php.net/manual/en/ref.math.php
 
-    echo pow(2, 7);
+    // echo pow(2, 7);
 
+    // echo "<br>";
+
+    // echo rand(1, 3);
+
+    // echo "<br>";
+
+    // echo sqrt(100);
+
+    // echo "<br>";
+
+    // echo ceil(4.2);
+
+    // echo "<br>";
+
+    // echo floor(4.7);
+
+    // echo "<br>";
+
+    // echo round(4.5)
+
+    // _______________________________________
+
+    // string functions
+
+    // https://www.php.net/ref.strings
+
+    // $string = "hello u all do like this food";
+    // echo strlen($string) . "<br>";
+    // echo strtoupper($string). "<br>";
+
+    // -----------------------------------------------------
+
+    $list = [32, 45, 78, 99, 9090, 6768, 98];
+    echo max($list);
     echo "<br>";
-
-    echo rand(1, 3);
-
+    echo min($list);
     echo "<br>";
-
-    echo sqrt(100);
-
-    echo "<br>";
-
-    echo ceil(4.2);
-
-    echo "<br>";
-
-    echo floor(4.7);
-
-    echo "<br>";
-
-    echo round(4.5)
-
+    print_r($list);
+    
     ?>
 </body>
 
