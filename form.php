@@ -1,10 +1,20 @@
 <?php
 
 if (isset($_POST['submit'])) {
-    $works =  "yes it works";
 
+    $name = ["Shreejan", "Student", "Jackson"];
     $username = $_POST['username'];
     $password = $_POST['password'];
+
+    if (strlen($username) < 5) {
+        echo "Username must be longer";
+    } elseif (strlen($username) > 10) {
+        echo "Username must not be longer then 10 char";
+    }
+
+    if()
+
+
 }
 
 
@@ -30,10 +40,6 @@ if (isset($_POST['submit'])) {
         <input type="submit" name="submit">
 
     </form>
-
-    <p><?php echo $works ?></p>
-    <p><?php echo $username ?></p>
-    <p><?php echo $password ?></p>
 </body>
 
 </html>
